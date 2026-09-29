@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1060 620" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, system-ui, sans-serif">
+  <title>CubeSat UD34 — Diagrama de Bloques Funcional</title>
+
+  <defs>
+    <!-- Power arrowhead (red-brown) -->
+    <marker id="arrow-power" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#9a3b2b"/>
+    </marker>
+    <marker id="arrow-power-rev" markerWidth="8" markerHeight="6" refX="1" refY="3" orient="auto">
+      <path d="M8,0 L0,3 L8,6 Z" fill="#9a3b2b"/>
+    </marker>
+    <!-- Data arrowhead (blue) -->
+    <marker id="arrow-data" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2b5a9a"/>
+    </marker>
+    <marker id="arrow-data-rev" markerWidth="8" markerHeight="6" refX="1" refY="3" orient="auto">
+      <path d="M8,0 L0,3 L8,6 Z" fill="#2b5a9a"/>
+    </marker>
+    <!-- Control arrowhead (green) -->
+    <marker id="arrow-control" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2b7a4b"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1060" height="620" fill="#f3f4f7" rx="0"/>
+
+  <!-- Title -->
+  <text x="530" y="32" text-anchor="middle" font-size="16" font-weight="700" fill="#3a3d4a" letter-spacing="0.06em">CUBESAT UD34 — DIAGRAMA DE BLOQUES FUNCIONAL</text>
+
+  <!-- ====== EXTERNAL: Sol ====== -->
+  <rect x="20" y="145" width="90" height="50" rx="4" ry="4" fill="#edf0f5" stroke="#6a7a8e" stroke-width="1.5"/>
+  <text x="65" y="165" text-anchor="middle" font-size="12" font-weight="600" fill="#3a4a5e">☀ Sol</text>
+  <text x="65" y="180" text-anchor="middle" font-size="10" fill="#6a7a8e">(Fuente de energía)</text>
+
+  <!-- ====== BOUNDARY: CubeSat UD34 ====== -->
+  <rect x="145" y="50" width="660" height="500" rx="10" ry="10" fill="none" stroke="#5a6a8e" stroke-width="2.2" stroke-dasharray="10 5"/>
+  <text x="165" y="75" font-size="14" font-weight="700" fill="#4a5a7e" letter-spacing="0.06em">CubeSat UD34</text>
+
+  <!-- ====== EPS: Paneles Solares ====== -->
+  <rect x="175" y="130" width="130" height="45" rx="4" ry="4" fill="#fafbfd" stroke="#5a6a8e" stroke-width="1.8"/>
+  <text x="240" y="148" text-anchor="middle" font-size="13" font-weight="700" fill="#2a3040">Paneles Solares</text>
+  <text x="240" y="163" text-anchor="middle" font-size="10" fill="#6a7a8e">Captación solar</text>
+
+  <!-- ====== EPS: Principal ====== -->
+  <rect x="175" y="225" width="130" height="55" rx="4" ry="4" fill="#fafbfd" stroke="#5a6a8e" stroke-width="1.8"/>
+  <text x="240" y="245" text-anchor="middle" font-size="13" font-weight="700" fill="#2a3040">EPS</text>
+  <text x="240" y="261" text-anchor="middle" font-size="10" fill="#6a7a8e">Distribución de energía</text>
+
+  <!-- ====== EPS: Batería ====== -->
+  <rect x="175" y="340" width="130" height="45" rx="4" ry="4" fill="#fafbfd" stroke="#5a6a8e" stroke-width="1.8"/>
+  <text x="240" y="358" text-anchor="middle" font-size="13" font-weight="700" fill="#2a3040">Batería</text>
+  <text x="240" y="372" text-anchor="middle" font-size="10" fill="#6a7a8e">Almacén de energía</text>
+
+  <!-- ====== OBC (centro) ====== -->
+  <rect x="400" y="222" width="150" height="60" rx="4" ry="4" fill="#fafbfd" stroke="#3a4a6e" stroke-width="2.4"/>
+  <text x="475" y="245" text-anchor="middle" font-size="14" font-weight="700" fill="#2a3040">OBC</text>
+  <text x="475" y="263" text-anchor="middle" font-size="10" fill="#6a7a8e">Procesamiento y control</text>
+
+  <!-- ====== Payload (arriba de OBC) ====== -->
+  <rect x="400" y="90" width="150" height="55" rx="4" ry="4" fill="#fafbfd" stroke="#5a6a8e" stroke-width="1.8"/>
+  <text x="475" y="110" text-anchor="middle" font-size="13" font-weight="700" fill="#2a3040">Payload</text>
+  <text x="475" y="126" text-anchor="middle" font-size="10" fill="#6a7a8e">Imágenes multiespectrales</text>
+
+  <!-- ====== Almacenamiento ====== -->
+  <rect x="590" y="100" width="130" height="45" rx="4" ry="4" fill="#fafbfd" stroke="#5a6a8e" stroke-width="1.8"/>
+  <text x="655" y="118" text-anchor="middle" font-size="13" font-weight="700" fill="#2a3040">Almacenamiento</text>
+  <text x="655" y="132" text-anchor="middle" font-size="10" fill="#6a7a8e">Datos de misión</text>
+
+  <!-- ====== ADCS (debajo de OBC) ====== -->
+  <rect x="400" y="370" width="150" height="55" rx="4" ry="4" fill="#fafbfd" stroke="#5a6a8e" stroke-width="1.8"/>
+  <text x="475" y="390" text-anchor="middle" font-size="13" font-weight="700" fill="#2a3040">ADCS</text>
+  <text x="475" y="406" text-anchor="middle" font-size="10" fill="#6a7a8e">Control de actitud</text>
+
+  <!-- ====== COMMS (derecha) ====== -->
+  <rect x="640" y="225" width="140" height="55" rx="4" ry="4" fill="#fafbfd" stroke="#5a6a8e" stroke-width="1.8"/>
+  <text x="710" y="245" text-anchor="middle" font-size="13" font-weight="700" fill="#2a3040">COMMS</text>
+  <text x="710" y="261" text-anchor="middle" font-size="10" fill="#6a7a8e">Comunicaciones</text>
+
+  <!-- ====== EXTERNAL: Antena ====== -->
+  <rect x="855" y="170" width="100" height="45" rx="4" ry="4" fill="#edf0f5" stroke="#6a7a8e" stroke-width="1.5"/>
+  <text x="905" y="188" text-anchor="middle" font-size="12" font-weight="600" fill="#3a4a5e">Antena UHF/VHF</text>
+  <text x="905" y="202" text-anchor="middle" font-size="10" fill="#6a7a8e">Tx/Rx</text>
+
+  <!-- ====== EXTERNAL: Estación Terrestre ====== -->
+  <rect x="855" y="280" width="160" height="55" rx="4" ry="4" fill="#edf0f5" stroke="#6a7a8e" stroke-width="1.5"/>
+  <text x="935" y="300" text-anchor="middle" font-size="12" font-weight="600" fill="#3a4a5e">Estación Terrestre</text>
+  <text x="935" y="316" text-anchor="middle" font-size="10" fill="#6a7a8e">Recepción y comando</text>
+
+  <!-- ============================================ -->
+  <!-- FLUJO DE POTENCIA (línea continua, rojo-marrón) -->
+  <!-- ============================================ -->
+
+  <!-- Sol → Paneles Solares -->
+  <line x1="110" y1="170" x2="173" y2="152" stroke="#9a3b2b" stroke-width="2" marker-end="url(#arrow-power)"/>
+
+  <!-- Paneles Solares → EPS -->
+  <line x1="240" y1="175" x2="240" y2="223" stroke="#9a3b2b" stroke-width="2" marker-end="url(#arrow-power)"/>
+
+  <!-- Batería ↔ EPS -->
+  <line x1="230" y1="340" x2="230" y2="282" stroke="#9a3b2b" stroke-width="2" marker-start="url(#arrow-power-rev)" marker-end="url(#arrow-power)"/>
+
+  <!-- EPS → OBC -->
+  <line x1="305" y1="252" x2="398" y2="252" stroke="#9a3b2b" stroke-width="2" marker-end="url(#arrow-power)"/>
+
+  <!-- EPS → Payload -->
+  <path d="M 270 225 L 270 118 L 398 118" fill="none" stroke="#9a3b2b" stroke-width="2" marker-end="url(#arrow-power)"/>
+
+  <!-- EPS → ADCS -->
+  <path d="M 270 280 L 270 397 L 398 397" fill="none" stroke="#9a3b2b" stroke-width="2" marker-end="url(#arrow-power)"/>
+
+  <!-- EPS → COMMS -->
+  <path d="M 305 240 L 350 240 L 350 475 L 710 475 L 710 282" fill="none" stroke="#9a3b2b" stroke-width="2" marker-end="url(#arrow-power)"/>
+
+  <!-- ============================================ -->
+  <!-- FLUJO DE DATOS (línea discontinua, azul) -->
+  <!-- ============================================ -->
+
+  <!-- Payload → OBC -->
+  <line x1="475" y1="145" x2="475" y2="220" stroke="#2b5a9a" stroke-width="1.8" stroke-dasharray="8 4" marker-end="url(#arrow-data)"/>
+
+  <!-- OBC → Almacenamiento -->
+  <path d="M 520 222 L 520 122 L 588 122" fill="none" stroke="#2b5a9a" stroke-width="1.8" stroke-dasharray="8 4" marker-end="url(#arrow-data)"/>
+
+  <!-- ADCS → OBC -->
+  <line x1="455" y1="370" x2="455" y2="284" stroke="#2b5a9a" stroke-width="1.8" stroke-dasharray="8 4" marker-end="url(#arrow-data)"/>
+
+  <!-- EPS → OBC (telemetría) -->
+  <line x1="305" y1="262" x2="398" y2="262" stroke="#2b5a9a" stroke-width="1.8" stroke-dasharray="8 4" marker-end="url(#arrow-data)"/>
+
+  <!-- OBC ↔ COMMS -->
+  <line x1="550" y1="252" x2="638" y2="252" stroke="#2b5a9a" stroke-width="1.8" stroke-dasharray="8 4" marker-start="url(#arrow-data-rev)" marker-end="url(#arrow-data)"/>
+
+  <!-- COMMS ↔ Antena -->
+  <line x1="780" y1="240" x2="780" y2="192" stroke="#2b5a9a" stroke-width="1.8" stroke-dasharray="8 4" marker-start="url(#arrow-data-rev)" marker-end="url(#arrow-data)"/>
+
+  <!-- Antena ↔ Estación Terrestre -->
+  <line x1="905" y1="215" x2="905" y2="278" stroke="#2b5a9a" stroke-width="1.8" stroke-dasharray="8 4" marker-start="url(#arrow-data-rev)" marker-end="url(#arrow-data)"/>
+
+  <!-- ============================================ -->
+  <!-- FLUJO DE CONTROL (línea punteada, verde) -->
+  <!-- ============================================ -->
+
+  <!-- OBC → ADCS -->
+  <line x1="495" y1="284" x2="495" y2="368" stroke="#2b7a4b" stroke-width="1.6" stroke-dasharray="3 3" marker-end="url(#arrow-control)"/>
+
+  <!-- OBC → Payload -->
+  <path d="M 440 222 L 440 160 L 430 160 L 430 147" fill="none" stroke="#2b7a4b" stroke-width="1.6" stroke-dasharray="3 3" marker-end="url(#arrow-control)"/>
+
+  <!-- OBC → COMMS -->
+  <line x1="550" y1="262" x2="638" y2="262" stroke="#2b7a4b" stroke-width="1.6" stroke-dasharray="3 3" marker-end="url(#arrow-control)"/>
+
+  <!-- ============================================ -->
+  <!-- LEYENDA -->
+  <!-- ============================================ -->
+  <rect x="175" y="475" width="390" height="52" rx="4" ry="4" fill="#f8f9fb" stroke="#c0c4ce" stroke-width="1"/>
+  <text x="190" y="493" font-size="11" font-weight="700" fill="#2a3040" letter-spacing="0.04em" dominant-baseline="central">LEYENDA</text>
+
+  <!-- Potencia -->
+  <line x1="250" y1="493" x2="300" y2="493" stroke="#9a3b2b" stroke-width="2"/>
+  <text x="308" y="493" font-size="11" font-weight="500" fill="#3a3d4a" dominant-baseline="central">Potencia</text>
+
+  <!-- Datos -->
+  <line x1="370" y1="493" x2="420" y2="493" stroke="#2b5a9a" stroke-width="1.8" stroke-dasharray="8 4"/>
+  <text x="428" y="493" font-size="11" font-weight="500" fill="#3a3d4a" dominant-baseline="central">Datos</text>
+
+  <!-- Control -->
+  <line x1="475" y1="493" x2="525" y2="493" stroke="#2b7a4b" stroke-width="1.6" stroke-dasharray="3 3"/>
+  <text x="533" y="493" font-size="11" font-weight="500" fill="#3a3d4a" dominant-baseline="central">Control</text>
+
+</svg>
