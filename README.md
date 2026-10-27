@@ -13,9 +13,7 @@ Separamos el circuito en una hoja principal y varias hojas por función: aliment
 
 ## Archivos de soporte
 
-- `01_Restricciones_y_Calculos`: matriz eléctrica, criterios de fabricación de referencia y cálculos de dimensionamiento de pistas y señales.
-- `02_BOM_y_Costos`: BOM exportada desde Altium y cotizaciones públicas documentadas de 20 referencias para los lotes de 10, 100 y 1000 tarjetas.
-- `03_Referencias_Tecnicas`: fichas de referencia de la cámara utilizada en la propuesta.
+Todos los archivos requeridos estan en la carpeta Archivos
 
 ## Proyecto de Altium
 
