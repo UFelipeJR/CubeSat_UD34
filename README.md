@@ -23,5 +23,5 @@ El proyecto nativo se abre con `p4_v07_Arias_Jimenez.PrjPcb` desde Altium Design
 
 
 ## 💡 Indice
-- [📄 Documentos ](Archivos)
+- [📄 Archivos ](Archivos)
 
