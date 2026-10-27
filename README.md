@@ -13,19 +13,15 @@ Separamos el circuito en una hoja principal y varias hojas por función: aliment
 
 ## Archivos de soporte
 
-- `01_Restricciones_y_Calculos`: matriz eléctrica, criterios de fabricación de referencia y cálculos de dimensionamiento de pistas y señales.
-- `02_BOM_y_Costos`: BOM exportada desde Altium y cotizaciones públicas documentadas de 20 referencias para los lotes de 10, 100 y 1000 tarjetas.
-- `03_Referencias_Tecnicas`: fichas de referencia de la cámara utilizada en la propuesta.
+Todos los archivos requeridos estan en la carpeta Archivos
 
 ## Proyecto de Altium
 
-El proyecto nativo se abre con `p4_v07_Arias_Jimenez.PrjPcb` desde Altium Designer 26. La hoja raíz es `00_OBC_Top.SchDoc`. Las ocho hojas funcionales y las dos subhojas repetidas forman parte del mismo proyecto. La verificación se ejecuta con `Project > Validate PCB Project`.
+El proyecto nativo se abre con `p4_v07_Arias_Jimenez.PrjPcb` desde Altium Designer 26. La hoja raíz es `00_OBC_Top.SchDoc`. Las ocho hojas funcionales y las dos subhojas repetidas forman parte del mismo proyecto.
 
-## Alcance de la práctica
 
-El trabajo comprende la captura esquemática, el dimensionamiento básico de sus circuitos y la identificación de las restricciones que orientan la futura PCB. Esta práctica no incluye el enrutamiento ni los archivos de fabricación.
 
 
 ## 💡 Indice
-- [📄 Documentos ](Archivos)
+- [📄 Archivos ](Archivos)
 
