@@ -1,0 +1,20 @@
+﻿Nombre informado,Tipo deducido,Situación,Observación / acción del estudiante
+CM7V-T1A-32.768K-7PF-20PPM-TB-QA,Carpeta o nombre de paquete (sin extensión),POR AGREGAR / SIN VERIFICAR,Copiar archivo real; no fue adjuntado.
+ECS_240_8_33Q_JES_TR,Carpeta o nombre de paquete (sin extensión),POR AGREGAR / SIN VERIFICAR,"Parece duplicarse en distintos formatos: conservar bibliotecas necesarias, sin duplicar componentes o vínculos."
+LIB_ECS-240-8-33Q-JES-TR,Carpeta o nombre de paquete (sin extensión),POR AGREGAR / SIN VERIFICAR,"Parece duplicarse en distintos formatos: conservar bibliotecas necesarias, sin duplicar componentes o vínculos."
+LIB_IS42S32160F-6BLI,Carpeta o nombre de paquete (sin extensión),POR AGREGAR / SIN VERIFICAR,Copiar archivo real; no fue adjuntado.
+LIB_TPS3851H33EDRBR,Carpeta o nombre de paquete (sin extensión),POR AGREGAR / SIN VERIFICAR,No confundir biblioteca descargada con variante instalada U701 G18: comprobar si puede reemplazarse y si tiene huella correcta.
+TFM322512ALVA1ROMTAA,Carpeta o nombre de paquete (sin extensión),POR AGREGAR / SIN VERIFICAR,Copiar archivo real; no fue adjuntado.
+ul_FTSH-105-01-L-DV-K,Carpeta o nombre de paquete (sin extensión),POR AGREGAR / SIN VERIFICAR,Copiar archivo real; no fue adjuntado.
+ul_MX52LM08A11XVI,Carpeta o nombre de paquete (sin extensión),POR AGREGAR / SIN VERIFICAR,Copiar archivo real; no fue adjuntado.
+ul_SMBJ100A-E3-52,Carpeta o nombre de paquete (sin extensión),POR AGREGAR / SIN VERIFICAR,"La BOM previa aún mostraba SMBJ100A; revisar referencia de D1 según corrección eléctrica, no asumir adecuada."
+ul_SN74AVC4T774PWR,Carpeta o nombre de paquete (sin extensión),POR AGREGAR / SIN VERIFICAR,Copiar archivo real; no fue adjuntado.
+ul_STM32N657X0H3Q,Carpeta o nombre de paquete (sin extensión),POR AGREGAR / SIN VERIFICAR,Copiar archivo real; no fue adjuntado.
+ul_TCA4307DGKR,Carpeta o nombre de paquete (sin extensión),POR AGREGAR / SIN VERIFICAR,Copiar archivo real; no fue adjuntado.
+ul_TPS3851G18EDRBR,Carpeta o nombre de paquete (sin extensión),POR AGREGAR / SIN VERIFICAR,Copiar archivo real; no fue adjuntado.
+ul_TPS259470ARPWR,Carpeta o nombre de paquete (sin extensión),POR AGREGAR / SIN VERIFICAR,Copiar archivo real; no fue adjuntado.
+CYRS17B01G.SchLib,Archivo biblioteca editable,POR AGREGAR / SIN VERIFICAR,Símbolo y huella propios: verificar correspondencia con datasheet/pin 1/pads.
+CYRS17B01G_100TQFP.PcbLib,Archivo biblioteca editable,POR AGREGAR / SIN VERIFICAR,Símbolo y huella propios: verificar correspondencia con datasheet/pin 1/pads.
+ECS_240_8_33Q_JES_TR.zip,ZIP de librería,POR AGREGAR / SIN VERIFICAR,"Parece duplicarse en distintos formatos: conservar bibliotecas necesarias, sin duplicar componentes o vínculos."
+FH12-30S-0.5SH_55 _. IntLib,Carpeta o nombre de paquete (sin extensión),POR AGREGAR / SIN VERIFICAR,Comprobar que el archivo .IntLib y las rutas de dependencias se abren en Altium.
+LIB_ECS-240-8-33Q-JES-TR.zip,ZIP de librería,POR AGREGAR / SIN VERIFICAR,"Parece duplicarse en distintos formatos: conservar bibliotecas necesarias, sin duplicar componentes o vínculos."
