@@ -17,7 +17,7 @@ Todos los archivos requeridos estan en la carpeta Archivos
 
 ## Proyecto de Altium
 
-El proyecto nativo se abre con `p4_v07_Arias_Jimenez.PrjPcb` desde Altium Designer 26. La hoja raíz es `00_OBC_Top.SchDoc`. Las ocho hojas funcionales y las dos subhojas repetidas forman parte del mismo proyecto.
+El proyecto nativo se abre con desde archivos y descomprimiendo 00_Proyecto_nativo.zip, este contiene `p4_v07_Arias_Jimenez.PrjPcb` desde Altium Designer 26. La hoja raíz es `00_OBC_Top.SchDoc`. Las ocho hojas funcionales y las dos subhojas repetidas forman parte del mismo proyecto.Todas las librerias externas estan en 04_Librerias
 
 
 
