@@ -21,9 +21,7 @@ Separamos el circuito en una hoja principal y varias hojas por función: aliment
 
 El proyecto nativo se abre con `p4_v07_Arias_Jimenez.PrjPcb` desde Altium Designer 26. La hoja raíz es `00_OBC_Top.SchDoc`. Las ocho hojas funcionales y las dos subhojas repetidas forman parte del mismo proyecto. La verificación se ejecuta con `Project > Validate PCB Project`.
 
-## Alcance de la práctica
 
-El trabajo comprende la captura esquemática, el dimensionamiento básico de sus circuitos y la identificación de las restricciones que orientan la futura PCB. Esta práctica no incluye el enrutamiento ni los archivos de fabricación.
 
 
 ## 💡 Indice
